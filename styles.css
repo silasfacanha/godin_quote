@@ -1,8 +1,12 @@
+
+body{
+     height: 100vh;
+}
 .container {
-  color: white;
-  background-color: #0039c7;
+  color: black;
+  background-color: white
   width: 100%;
-  height: 100vh;
+ 
   text-align: center;
 }
 
