@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+}
+.container {
+  color: black;
+  background-color: white;
+  width: 100%;
+
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+.seth_main {
+  width: 100%;
+}
+
+.btn-get_wiser {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 30px;
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #000;
+}
