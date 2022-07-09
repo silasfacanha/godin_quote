@@ -172,7 +172,7 @@ const ideas_quotes = [
     source: "What to do When it's Your Turn (and it's Always Your Turn)",
     year: 2014,
   },
-  /* hey */
+
   {
     quote: `"The devil doesn't need an advocate. The brave need supporters, not critics." `,
     source: "Whatcha Going to Do with That Duck?",
