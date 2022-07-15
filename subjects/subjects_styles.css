@@ -9,24 +9,20 @@ body {
   text-align: center;
 }
 
-header {
-  text-align: center;
+#quote-area {
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: aqua;
 }
 
-.seth_main {
-  width: 100%;
+.buttons {
+  display: flex;
+  justify-content: center;
 }
 
-.btn-get_wiser {
-  text-decoration: none;
-  background-color: #000;
-  color: #fff;
-  border-radius: 30px;
-  width: 100px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 30px;
-  color: #000;
+.subjects {
+  display: flex;
+  justify-content: center;
 }
