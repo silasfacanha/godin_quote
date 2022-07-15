@@ -1,3 +1,6 @@
+const soundBtn = document.querySelector("#soundBtn");
+const quoteText = document.querySelector("#quote-area");
+
 const culture_quotes = [
   {
     quote: ` “The status quo doesn’t shift because you’re right. It shifts because the culture changes. And the engine of culture is status.”`,
@@ -292,8 +295,6 @@ function newLifeQuote() {
     ", " +
     life_quotes[randomNumber].year;
 }
-
-const quoteText = document.querySelector("#quote-area");
 
 window.onload = function () {
   document.getElementById("copyBtn").addEventListener("click", () => {
