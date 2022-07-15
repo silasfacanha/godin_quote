@@ -243,38 +243,48 @@ const life_quotes = [
 function newCultureQuote() {
   let randomNumber = Math.floor(Math.random() * culture_quotes.length);
 
-  document.getElementById("quote-area").innerHTML = Object.values(
-    culture_quotes[randomNumber]
-  );
+  document.getElementById("quote-area").innerHTML =
+    culture_quotes[randomNumber].quote +
+    culture_quotes[randomNumber].source +
+    ", " +
+    culture_quotes[randomNumber].year;
 }
 function newMarketingQuote() {
   let randomNumber = Math.floor(Math.random() * marketing_quotes.length);
 
-  document.getElementById("quote-area").innerHTML = Object.values(
-    marketing_quotes[randomNumber]
-  );
+  document.getElementById("quote-area").innerHTML =
+    marketing_quotes[randomNumber].quote +
+    marketing_quotes[randomNumber].source +
+    ", " +
+    marketing_quotes[randomNumber].year;
 }
 function newWorkQuote() {
   let randomNumber = Math.floor(Math.random() * work_quotes.length);
 
-  document.getElementById("quote-area").innerHTML = Object.values(
-    work_quotes[randomNumber]
-  );
+  document.getElementById("quote-area").innerHTML =
+    ideas_quotes[randomNumber].quote +
+    ideas_quotes[randomNumber].source +
+    ", " +
+    ideas_quotes[randomNumber].year;
 }
 
 function newIdeasQuote() {
   let randomNumber = Math.floor(Math.random() * ideas_quotes.length);
 
-  document.getElementById("quote-area").innerHTML = Object.values(
-    ideas_quotes[randomNumber]
-  );
+  document.getElementById("quote-area").innerHTML =
+    ideas_quotes[randomNumber].quote +
+    ideas_quotes[randomNumber].source +
+    ", " +
+    ideas_quotes[randomNumber].year;
 }
 function newLifeQuote() {
   let randomNumber = Math.floor(Math.random() * life_quotes.length);
 
-  document.getElementById("quote-area").innerHTML = Object.values(
-    life_quotes[randomNumber]
-  );
+  document.getElementById("quote-area").innerHTML =
+    life_quotes[randomNumber].quote +
+    life_quotes[randomNumber].source +
+    ", " +
+    life_quotes[randomNumber].year;
 }
 
 const quoteText = document.querySelector("#quote-area");
