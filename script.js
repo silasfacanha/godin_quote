@@ -279,6 +279,8 @@ function newLifeQuote() {
 
 const quoteText = document.querySelector("#quote-area");
 
-document.getElementById("copyBtn").addEventListener("click", () => {
-  navigator.clipboard.writeText(quoteText.innerText);
-});
+window.onload = function () {
+  document.getElementById("copyBtn").addEventListener("click", () => {
+    navigator.clipboard.writeText(quoteText.innerText);
+  });
+};
