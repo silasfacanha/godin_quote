@@ -249,11 +249,13 @@ function newCultureQuote() {
     ", " +
     culture_quotes[randomNumber].year;
 }
+
 function newMarketingQuote() {
   let randomNumber = Math.floor(Math.random() * marketing_quotes.length);
 
   document.getElementById("quote-area").innerHTML =
     marketing_quotes[randomNumber].quote +
+    "<br/>" +
     marketing_quotes[randomNumber].source +
     ", " +
     marketing_quotes[randomNumber].year;
