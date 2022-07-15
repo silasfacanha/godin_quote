@@ -276,3 +276,9 @@ function newLifeQuote() {
     life_quotes[randomNumber]
   );
 }
+
+function merda() {
+  console.log("fodeu");
+}
+
+document.querySelector(".copyBtn").addEventListener("click", merda);
