@@ -245,7 +245,7 @@ function newCultureQuote() {
 
   document.getElementById("quote-area").innerHTML =
     culture_quotes[randomNumber].quote +
-    "<br/>" +
+    "<br/><br/>" +
     culture_quotes[randomNumber].source +
     ", " +
     culture_quotes[randomNumber].year;
@@ -256,7 +256,7 @@ function newMarketingQuote() {
 
   document.getElementById("quote-area").innerHTML =
     marketing_quotes[randomNumber].quote +
-    "<br/>" +
+    "<br/><br/>" +
     marketing_quotes[randomNumber].source +
     ", " +
     marketing_quotes[randomNumber].year;
@@ -266,7 +266,7 @@ function newWorkQuote() {
 
   document.getElementById("quote-area").innerHTML =
     ideas_quotes[randomNumber].quote +
-    "<br/>" +
+    "<br/><br/>" +
     ideas_quotes[randomNumber].source +
     ", " +
     ideas_quotes[randomNumber].year;
@@ -277,7 +277,7 @@ function newIdeasQuote() {
 
   document.getElementById("quote-area").innerHTML =
     ideas_quotes[randomNumber].quote +
-    "<br/>" +
+    "<br/><br/>" +
     ideas_quotes[randomNumber].source +
     ", " +
     ideas_quotes[randomNumber].year;
@@ -287,7 +287,7 @@ function newLifeQuote() {
 
   document.getElementById("quote-area").innerHTML =
     life_quotes[randomNumber].quote +
-    "<br/>" +
+    "<br/><br/>" +
     life_quotes[randomNumber].source +
     ", " +
     life_quotes[randomNumber].year;
@@ -303,5 +303,15 @@ window.onload = function () {
   document.getElementById("tweetBtn").addEventListener("click", () => {
     let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
     window.open(tweetUrl, "_blank");
+  });
+  synth = speechSynthesis;
+  soundBtn.addEventListener("click", () => {
+    let utterance = new SpeechSynthesisUtterance(`${quoteText.innerText}`);
+    synth.speak(utterance);
+    setInterval(() => {
+      !synth.speaking
+        ? speechBtn.classList.remove("active")
+        : speechBtn.classList.add("active");
+    }, 10);
   });
 };
