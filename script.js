@@ -283,8 +283,9 @@ window.onload = function () {
   document.getElementById("copyBtn").addEventListener("click", () => {
     navigator.clipboard.writeText(quoteText.innerText);
   });
+
+  document.getElementById("tweetBtn").addEventListener("click", () => {
+    let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
+    window.open(tweetUrl, "_blank");
+  });
 };
-document.getElementById("tweetBtn").addEventListener("click", () => {
-  let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
-  window.open(tweetUrl, "_blank");
-});
