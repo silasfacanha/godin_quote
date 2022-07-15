@@ -245,6 +245,7 @@ function newCultureQuote() {
 
   document.getElementById("quote-area").innerHTML =
     culture_quotes[randomNumber].quote +
+    "<br/>" +
     culture_quotes[randomNumber].source +
     ", " +
     culture_quotes[randomNumber].year;
@@ -265,6 +266,7 @@ function newWorkQuote() {
 
   document.getElementById("quote-area").innerHTML =
     ideas_quotes[randomNumber].quote +
+    "<br/>" +
     ideas_quotes[randomNumber].source +
     ", " +
     ideas_quotes[randomNumber].year;
@@ -275,6 +277,7 @@ function newIdeasQuote() {
 
   document.getElementById("quote-area").innerHTML =
     ideas_quotes[randomNumber].quote +
+    "<br/>" +
     ideas_quotes[randomNumber].source +
     ", " +
     ideas_quotes[randomNumber].year;
@@ -284,6 +287,7 @@ function newLifeQuote() {
 
   document.getElementById("quote-area").innerHTML =
     life_quotes[randomNumber].quote +
+    "<br/>" +
     life_quotes[randomNumber].source +
     ", " +
     life_quotes[randomNumber].year;
