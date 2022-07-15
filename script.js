@@ -284,3 +284,7 @@ window.onload = function () {
     navigator.clipboard.writeText(quoteText.innerText);
   });
 };
+document.getElementById("tweetBtn").addEventListener("click", () => {
+  let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
+  window.open(tweetUrl, "_blank");
+});
