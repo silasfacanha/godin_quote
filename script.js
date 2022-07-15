@@ -277,8 +277,8 @@ function newLifeQuote() {
   );
 }
 
-function merda() {
-  console.log("fodeu");
-}
+const quoteText = document.querySelector("#quote-area");
 
-document.querySelector(".copyBtn").addEventListener("click", merda);
+document.getElementById("copyBtn").addEventListener("click", () => {
+  navigator.clipboard.writeText(quoteText.innerText);
+});
