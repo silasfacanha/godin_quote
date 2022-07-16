@@ -1,5 +1,6 @@
 const soundBtn = document.querySelector("#soundBtn");
 const quoteText = document.querySelector("#quote-area");
+synth = speechSynthesis;
 
 const culture_quotes = [
   {
@@ -305,9 +306,11 @@ window.onload = function () {
     let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
     window.open(tweetUrl, "_blank");
   });
-  synth = speechSynthesis;
+  const voices = synth.getVoices();
+  console.log(synth.getVoices());
   soundBtn.addEventListener("click", () => {
     let utterance = new SpeechSynthesisUtterance(`${quoteText.innerText}`);
+    utterance.lang = "en-US";
     synth.speak(utterance);
     setInterval(() => {
       !synth.speaking
