@@ -297,24 +297,22 @@ function newLifeQuote() {
     life_quotes[randomNumber].year;
 }
 
-window.onload = function () {
-  document.getElementById("copyBtn").addEventListener("click", () => {
-    navigator.clipboard.writeText(quoteText.innerText);
-  });
+document.getElementById("copyBtn").addEventListener("click", () => {
+  navigator.clipboard.writeText(quoteText.innerText);
+});
 
-  document.getElementById("tweetBtn").addEventListener("click", () => {
-    let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
-    window.open(tweetUrl, "_blank");
-  });
+document.getElementById("tweetBtn").addEventListener("click", () => {
+  let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
+  window.open(tweetUrl, "_blank");
+});
 
-  soundBtn.addEventListener("click", () => {
-    let utterance = new SpeechSynthesisUtterance(`${quoteText.innerText}`);
-    utterance.lang = "en-US";
-    synth.speak(utterance);
-    setInterval(() => {
-      !synth.speaking
-        ? speechBtn.classList.remove("active")
-        : speechBtn.classList.add("active");
-    }, 10);
-  });
-};
+soundBtn.addEventListener("click", () => {
+  let utterance = new SpeechSynthesisUtterance(`${quoteText.innerText}`);
+  utterance.lang = "en-US";
+  synth.speak(utterance);
+  setInterval(() => {
+    !synth.speaking
+      ? speechBtn.classList.remove("active")
+      : speechBtn.classList.add("active");
+  }, 10);
+});
