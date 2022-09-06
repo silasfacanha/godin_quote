@@ -4,6 +4,11 @@
 .btn-get_wiser {
   text-decoration: none;
   color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+.btn-get_wiser:hover {
+  background: grey;
 }
 h2 {
   text-decoration: u;
