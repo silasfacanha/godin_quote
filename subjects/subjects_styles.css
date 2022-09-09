@@ -18,16 +18,82 @@ body {
   background-color: aqua;
 }
 
-.buttons {
+.subjects {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.subject__culture {
+  border: 1px solid black;
+}
+
+.subject__culture:hover {
+  background-color: grey;
+}
+
+.subject__marketing {
+  border: 1px solid black;
+}
+
+.subject__marketing:hover {
+  background-color: grey;
+}
+
+.subject__work {
+  border: 1px solid black;
+}
+.subject__work:hover {
+  background-color: grey;
+}
+.subject__ideas {
+  border: 1px solid black;
+}
+
+.subject__ideas:hover {
+  background-color: grey;
+}
+.subject__life {
+  border: 1px solid black;
+}
+
+.subject__life:hover {
+  background-color: grey;
+}
+
+#copyBtn {
+  border: 1px solid black;
+}
+
+#copyBtn:hover {
+  background-color: grey;
+}
+
+#tweetBtn {
+  border: 1px solid black;
+}
+
+#tweetBtn:hover {
+  background-color: grey;
+}
+
+#soundBtn {
+  border: 1px solid black;
+}
+
+#soundBtn:hover {
+  background-color: grey;
+}
+
+.action_btns {
   position: absolute;
   top: 75%;
   left: 0;
   right: 0;
   display: flex;
   justify-content: center;
-}
-
-.subjects {
-  display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin-right: 25%;
+  margin-left: 25%;
 }

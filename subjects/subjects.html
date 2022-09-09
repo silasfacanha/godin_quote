@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="subjects_styles.css" />
     <script defer src="../script.js"></script>
-    
+
     <title>Godin Quote</title>
   </head>
   <body>
@@ -14,24 +14,25 @@
       <header><h1>Which subject triggers your curiosity?</h1></header>
       <div class="subjects">
         <div class="subject__culture">
-          <button onclick="newCultureQuote()"> Culture</button>
+          <a onclick="newCultureQuote()">Culture</a>
         </div>
-        
+
         <div class="subject__marketing">
-          <button onclick="newMarketingQuote()"> Marketing</button>
+          <a onclick="newMarketingQuote()"> Marketing</a>
         </div>
-        <div class="subject__work"><button onclick="newWorkQuote()"> Work</button></div>
-        <div class="subject__ideas"><button onclick="newIdeasQuote()"> Ideas</a></div>
-        <div class="subject__life"><button onclick="newLifeQuote()">Life</button></div>
-     </div>
+        <div class="subject__work"><a onclick="newWorkQuote()"> Work</a></div>
+        <div class="subject__ideas">
+          <a onclick="newIdeasQuote()"> Ideas</a>
+        </div>
+        <div class="subject__life"><a onclick="newLifeQuote()">Life</a></div>
+      </div>
       <div id="quote-area"></div>
-      <div class="buttons"><div ><button id="copyBtn"> Copy</button></div>
-      
-      <div ><button id="tweetBtn" >Twitter</button></div>
-      <div ><button  id="soundBtn"> Sound</button></div>
+      <div class="action_btns">
+        <div><a id="copyBtn"> Copy</a></div>
+
+        <div><a id="tweetBtn">Twitter</a></div>
+        <div><a id="soundBtn"> Sound</a></div>
       </div>
     </div>
-    
-    
   </body>
 </html>
