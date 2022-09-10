@@ -92,7 +92,6 @@ body {
   left: 0;
   right: 0;
   display: flex;
-  justify-content: center;
   justify-content: space-evenly;
   margin-right: 25%;
   margin-left: 25%;
