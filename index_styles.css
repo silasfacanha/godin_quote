@@ -1,15 +1,28 @@
+body{background-color: #160d4d;
+
+}
+
 .container {
   text-align: center;
+  
+}
+.subtitle {
+  color: white;
+  font-size:6vh;
 }
 .btn-get_wiser {
   text-decoration: none;
-  color: black;
-  background-color: white;
-  border: 1px solid black;
+  color: white;
+  background-color: #160d4d;
+  border:2px solid #7ed957;
+  font-size: 5vh;
+  border-radius:7%;
+  padding: 1% 1%;
 }
 .btn-get_wiser:hover {
-  background: grey;
-}
-h2 {
-  text-decoration: u;
-}
+  color: #7ed957;
+  background-color: grey;}
+  
+
+
+
