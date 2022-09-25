@@ -1,4 +1,4 @@
-body{background-color: #160d4d;
+body{background-color: #DCE1DE;
 
 }
 
@@ -6,21 +6,31 @@ body{background-color: #160d4d;
   text-align: center;
   
 }
+.title {
+  color:black;
+
+}
 .subtitle {
-  color: white;
-  font-size:6vh;
+  color:black ;
+  margin: 5%;
+  
+
 }
 .btn-get_wiser {
+  
   text-decoration: none;
-  color: white;
-  background-color: #160d4d;
-  border:2px solid #7ed957;
-  font-size: 5vh;
-  border-radius:7%;
-  padding: 1% 1%;
+  color: black;
+  background-color: #DCE1DE;
+  border:2px solid black;
+  font-size: 3vh;
+  border-radius:2%;
+  font-size: 4vh;
+  padding: 0.5% 5%;
+ 
+  
 }
 .btn-get_wiser:hover {
-  color: #7ed957;
+  color: black;
   background-color: grey;}
   
 

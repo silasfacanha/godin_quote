@@ -1,22 +1,17 @@
 body {
   height: 100vh;
   position: relative;
+  background-color: #DCE1DE
 }
 .container {
   color: black;
-  background-color: white;
+  
   width: 100%;
 
   text-align: center;
 }
 
-#quote-area {
-  margin-right: 30%;
-  margin-left: 30%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  background-color: aqua;
-}
+
 
 .subjects {
   display: flex;
@@ -26,7 +21,10 @@ body {
 }
 
 .subject__culture {
-  border: 1px solid black;
+  border:2px solid black;
+  font-size: 3vh;
+  padding:1% 1%;
+
 }
 
 .subject__culture:hover {
@@ -34,7 +32,9 @@ body {
 }
 
 .subject__marketing {
-  border: 1px solid black;
+  border:2px solid black;
+  font-size: 3vh;
+  padding:1% 1%
 }
 
 .subject__marketing:hover {
@@ -42,28 +42,37 @@ body {
 }
 
 .subject__work {
-  border: 1px solid black;
+  border:2px solid black;
+  font-size: 3vh;
+  padding:1% 1%
 }
 .subject__work:hover {
   background-color: grey;
 }
 .subject__ideas {
-  border: 1px solid black;
+  border:2px solid black;
+  font-size: 3vh;
+  padding:1% 1%
 }
 
 .subject__ideas:hover {
   background-color: grey;
 }
 .subject__life {
-  border: 1px solid black;
-}
+  border:2px solid black;
+font-size: 3vh;
+padding:1% 1%;}
 
 .subject__life:hover {
   background-color: grey;
 }
-
+#quote-area {
+  margin: 10% 20%;
+  border-radius: 3px;
+}
 #copyBtn {
-  border: 1px solid black;
+ border:2px solid black;
+  padding:10% 10%;
 }
 
 #copyBtn:hover {
@@ -71,7 +80,8 @@ body {
 }
 
 #tweetBtn {
-  border: 1px solid black;
+border:2px solid black;
+ padding:10% 10%;
 }
 
 #tweetBtn:hover {
@@ -79,7 +89,8 @@ body {
 }
 
 #soundBtn {
-  border: 1px solid black;
+ border:2px solid black;
+ padding:10% 10%;
 }
 
 #soundBtn:hover {
