@@ -24,6 +24,7 @@ body {
   border:2px solid black;
   font-size: 3vh;
   padding:1% 1%;
+  margin: 10% 10%;
 
 }
 
@@ -34,7 +35,8 @@ body {
 .subject__marketing {
   border:2px solid black;
   font-size: 3vh;
-  padding:1% 1%
+  padding:1% 1%;
+   margin: 10% 10%;
 }
 
 .subject__marketing:hover {
@@ -44,7 +46,8 @@ body {
 .subject__work {
   border:2px solid black;
   font-size: 3vh;
-  padding:1% 1%
+  padding:1% 1%;
+   margin: 10% 10%;
 }
 .subject__work:hover {
   background-color: grey;
@@ -52,7 +55,8 @@ body {
 .subject__ideas {
   border:2px solid black;
   font-size: 3vh;
-  padding:1% 1%
+  padding:1% 1%;
+   margin: 10% 10%;
 }
 
 .subject__ideas:hover {
@@ -61,7 +65,8 @@ body {
 .subject__life {
   border:2px solid black;
 font-size: 3vh;
-padding:1% 1%;}
+padding:1% 1%;
+ margin: 10% 10%;}
 
 .subject__life:hover {
   background-color: grey;
@@ -69,6 +74,7 @@ padding:1% 1%;}
 #quote-area {
   margin: 10% 20%;
   border-radius: 3px;
+  
 }
 #copyBtn {
  border:2px solid black;
