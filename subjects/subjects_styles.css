@@ -77,9 +77,10 @@ margin: 2% 2%;
   background-color: grey;
 }
 #quote-area {
-  margin: 5% 20% 5% 20%;
+  margin: 5% auto 5% auto;
   border-radius: 3px;
   padding: 70px 0;
+  font-size: x-large;
 
   
 }
