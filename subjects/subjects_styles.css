@@ -125,3 +125,8 @@ font-size: 1.5rem;
   
   
 }
+
+a:hover{
+  cursor: pointer;
+}
+
