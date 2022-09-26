@@ -79,6 +79,7 @@ padding:1% 1%;
 #copyBtn {
  border:2px solid black;
   padding:10% 10%;
+   margin: 3% 3%;
 }
 
 #copyBtn:hover {
@@ -88,6 +89,7 @@ padding:1% 1%;
 #tweetBtn {
 border:2px solid black;
  padding:10% 10%;
+  margin: 3% 3%;
 }
 
 #tweetBtn:hover {
@@ -97,6 +99,7 @@ border:2px solid black;
 #soundBtn {
  border:2px solid black;
  padding:10% 10%;
+  margin: 3% 3%;
 }
 
 #soundBtn:hover {
