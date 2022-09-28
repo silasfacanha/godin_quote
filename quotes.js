@@ -5,11 +5,7 @@ const culture_quotes = [
     source: "This is Marketing",
     year: 2018,
   },
-  {
-    quote: "People like us do things like this: this is culture.",
-    source: "Seth's Blog",
-    year: 2013,
-  },
+ 
 
   {
     quote:
